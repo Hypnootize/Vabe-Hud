@@ -1,0 +1,7 @@
+middle: 	http://i.imgur.com/9Pz8Ylq.jpg
+
+underAmmo: 	http://i.imgur.com/yKFsllT.jpg
+
+underHP: 	http://i.imgur.com/SEP4Eb8.jpg
+
+bottomLeft: 	http://i.imgur.com/Krtu98l.jpg
