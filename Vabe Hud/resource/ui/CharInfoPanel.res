@@ -113,8 +113,9 @@
 		"tabxindent"	"20"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"24"
 		"transition_time" "0"
+		"yoffset" "14"
 		
 		"HeaderLine"
 		{
@@ -134,7 +135,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"30"
-			"font"				"HudFontMediumBold"
+			"font"				"HudFontMediumSmallBold"
 			"selectedcolor"		"vabeFont"
 			"unselectedcolor"	"150 150 150 255"	
 			"paintbackground"	"1"
