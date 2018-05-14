@@ -274,7 +274,6 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
@@ -289,7 +288,7 @@
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Futura7"
 			"fgcolor"		"OmpText"
@@ -300,12 +299,13 @@
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"ypos"			"3"
+				"ypos"		"3"
+				"font"		"Futura16"
 			}
 		}	
 	}

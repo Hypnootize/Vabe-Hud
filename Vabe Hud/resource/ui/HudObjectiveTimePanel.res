@@ -5,14 +5,10 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"169999"
-		"xpos_hidef"	"108"
-		"xpos_lodef"	"108"
 		"ypos"			"99999"
 		"zpos"			"2"
 		"wide"			"78"
-		"wide_lodef"	"90"
 		"tall"			"33"
-		"tall_lodef"	"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
@@ -20,8 +16,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -29,16 +24,10 @@
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"679999"
-		"xpos_hidef"		"159"
-		"xpos_lodef"		"165"
 		"ypos"				"169999"
-		"ypos_hidef"		"15"
-		"ypos_lodef"		"16"
 		"zpos"				"4"	
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"	
 		"visible"			"1"
 		"enabled"			"1"
 		"scaleImage"			"1"
@@ -50,8 +39,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -75,8 +63,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -85,12 +72,9 @@
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"169999"	[$WIN32]
 		"ypos"			"319999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -98,8 +82,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -123,8 +106,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -133,8 +115,6 @@
 		"fieldName"		"OvertimeBG"
 		"xpos"			"169999"	[$WIN32]
 		"ypos"			"319999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -145,8 +125,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -154,19 +133,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
@@ -175,13 +145,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -191,12 +158,9 @@
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -204,8 +168,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupLabel"
@@ -229,8 +192,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupBG"
@@ -239,8 +201,6 @@
 		"fieldName"		"SetupBG"
 		"xpos"			"169999"	[$WIN32]
 		"ypos"			"319999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -251,8 +211,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"ServerTimeLimitLabel"
@@ -273,6 +232,13 @@
 		"wrap"			"0"
 		"font"			"Futura9"
 		"fgcolor"		"OmpText"
+		
+		if_match
+		{
+			"xpos"			"c3"
+			"ypos"			"-208"
+			"font"			"Futura9"
+		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -280,8 +246,6 @@
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"16999"	[$WIN32]
 		"ypos"			"31999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -290,5 +254,10 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}
 }
