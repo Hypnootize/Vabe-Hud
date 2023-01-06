@@ -1,12 +1,7 @@
 # Vabe-Hud
-Screenshots: https://imgur.com/a/pfx2E
 
-How to Download and Install: https://imgur.com/a/w3Ah6
+**[SCREENSHOTS ALBUM](https://imgur.com/a/pfx2E)** 
 
-Original Damage Color:
+**[INSTALLATION](https://imgur.com/a/w3Ah6)**
 
-hud_combattext_red 0
-
-hud_combattext_green 255
-
-hud_combattext_blue 255
+![](https://i.imgur.com/mBpkHZy.jpg)
